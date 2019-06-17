@@ -1,0 +1,51 @@
+{
+  "name": "justCool",
+  "version": "0.0.1",
+  "description": "myChat",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --env=development --progress --watch",
+    "start": "webpack --p --env=development --progress",
+    "build": "webpack --p --env=production --progress",
+    "server": "node bin/www"
+  },
+  "author": "ls",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "debug": "^2.6.0",
+    "koa": "^2.0.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.0.0",
+    "koa-onerror": "^1.2.1",
+    "koa-router": "^7.2.1",
+    "koa-static": "^3.0.0",
+    "koa-views": "^5.2.0",
+    "rc-alert": "^1.1.8",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-router-dom": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^1.0.0",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^0.26.1",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.0.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.2.1"
+  },
+  "engines": {
+    "node": ">= 7.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

@@ -1,0 +1,116 @@
+body {
+     height: 100vh;
+     margin: 0;
+    overflow: hidden;
+ }
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+#root{
+    width: 100%;
+    height: 100%;
+}
+.muplayIcon{
+    font-size: 60px;
+    margin: 11px 20px;
+    color: #3e3e3e;
+}
+.muplayIcon:hover{
+    color: #eee;
+}
+.circleIcon{
+    font-size: 18px;
+    color: #313030;
+    margin: 3px;
+}
+.circleIcon:hover{
+    color: #aaa;
+    font-size: 20px;
+}
+.showIcon:hover{
+    color: #eee;
+}
+@keyframes rotate {
+    0% {
+        transform:rotate(0deg);
+        -ms-transform:rotate(0deg); 	/* IE 9 */
+        -moz-transform:rotate(0deg); 	/* Firefox */
+        -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+        -o-transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+        -ms-transform:rotate(360deg); 	/* IE 9 */
+        -moz-transform:rotate(360deg); 	/* Firefox */
+        -webkit-transform:rotate(360deg); /* Safari 和 Chrome */
+        -o-transform:rotate(360deg);
+    }
+}
+
+#canvas-cat{
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg); 	/* IE 9 */
+    -moz-transform:rotate(180deg); 	/* Firefox */
+    -webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+    -o-transform:rotate(180deg);
+}
+.music-design {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    -moz-transition:  0.5s ease-in-out; /* Firefox 4 */
+    -webkit-transition:  0.5s ease-in-out; /* Safari 和 Chrome */
+    -o-transition:  0.5s ease-in-out; /* Opera */
+    background-size: cover;
+}
+
+.music-contents{
+    margin-top: 110px;
+}
+.music-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    min-width: 800px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition:  0.5s ease-in-out; /* Firefox 4 */
+    -webkit-transition:  0.5s ease-in-out; /* Safari 和 Chrome */
+    -o-transition:  0.5s ease-in-out; /* Opera */
+}
+canvas{
+    margin: auto;
+    display: block;
+}
+.bar {
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    perspective: 1800px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition:  0.5s ease-in-out; /* Firefox 4 */
+    -webkit-transition:  0.5s ease-in-out; /* Safari 和 Chrome */
+    -o-transition:  0.5s ease-in-out; /* Opera */
+    pointer-events: none;
+}
+
+.photo {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 150px;
+    height: 77px;
+    position: absolute;
+    left: calc(50% - 100px);
+    border-radius: 10px;
+    transition: all 0.8s ease-in-out 0s;
+    background-size: cover;
+    pointer-events: auto;
+}

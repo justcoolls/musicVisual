@@ -1,0 +1,48 @@
+.meun{
+    position: fixed;
+    left: -102px;
+    top: 20%;
+}
+.meun ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.meun ul li{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    line-height: 20px;
+    cursor:pointer;
+    margin: 12px 2px;
+    padding: 3px 6px;
+    border-radius: 6px;
+    box-shadow: rgb(17, 17, 17) 0px 0px 5px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition:  0.5s ease-in-out; /* Firefox 4 */
+    -webkit-transition:  0.5s ease-in-out; /* Safari 和 Chrome */
+    -o-transition:  0.5s ease-in-out; /* Opera */
+}
+.meun ul li:hover{
+    transform: translateX(102px);
+}
+.meun-icon{
+    font-size: 20px;
+}
+.meun .switch{
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+}
+.meun .switch-circle{
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 14px;
+    margin: 1px;
+    transition: all 0.2s ease-in-out;
+    -moz-transition:  0.2s ease-in-out; /* Firefox 4 */
+    -webkit-transition:  0.2s ease-in-out; /* Safari 和 Chrome */
+    -o-transition:  0.2s ease-in-out; /* Opera */
+}
